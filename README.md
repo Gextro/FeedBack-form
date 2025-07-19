@@ -129,21 +129,6 @@ Run through the matrix on desktop (Chrome) & mobile (Chrome Android / Safari) �
 
 ---
 
-## ❓ FAQ
-
-**Q:** _How can I change the default ports?_
-
-> Edit `server/.env` (`PORT=`) and `client/vite.config.js` (`server.port`).
-
-**Q:** _Where do I plug in production MongoDB / Render / Atlas URI?_
-
-> Same `.env` key `MONGO_URI`. The client only needs the API base URL changed if the domain differs.
-
-**Q:** _Can I add more than 5 questions?_  
-> “Max 5” was an assignment constraint; raise the limit in `FormBuilder.jsx` validation and backend controller.
-
----
-
 ## 🛠️ Scripts
 
 | Location | Command | Purpose |
